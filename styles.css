@@ -1,0 +1,48 @@
+
+h1{
+  font-family:Roboto;
+  text-align: center;
+  width:100%;
+  color:#2E4033;
+  background-color: ;
+  font-style:bold;
+}
+.description {
+  text-align: center;
+  font-style:italic;
+}
+
+body{
+  background-color: #F5F5F1;
+  font-family:Sans-Serif;
+}
+
+div{
+   margin:40px;
+}
+
+input[type="submit"]{
+  width:80%;
+  margin:auto;
+  height:50px;
+  background-color: #4CAF50;
+  border-radius:30px;
+}
+
+input[type="email"]{
+ height:30px;
+}
+
+input{
+  margin-top:15px;
+}
+
+select{
+  height:40px;
+  width:100%;
+  max-width:500px;
+  margin-top:15px;
+  background-color:#FAFAFA;
+  color:rgba(0,0,0,50%);
+  font-size:15px;
+  }
