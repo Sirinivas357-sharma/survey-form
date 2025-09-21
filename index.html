@@ -7,8 +7,136 @@
     <title>Survey Form Design </title>
   </head>
   <body>
-    hello didi!!!
-    <br>
-    kata xas??????
+          <h1 class="title">Help Us To Craft Something Special For You This Dashain</h1>
+      <p class="description">-A Survey By Himalayan Brews</p>
+      <div class="introduction">
+        <p>We're planning a something special menu for Dashain, and we want you to be a part of it.</p>
+        <p>Your answers will help us create something truly delicious, so please take a moment to fill out the form below.</p>
+      </div>
+      <form>
+        <ol>
+        <div class="visit-frequency">
+          <li>
+          <label for="visit-frequency" >How often do you visit us?</label>
+          </li>
+           <label for="daily">
+             <input type="radio" name="visit-frequency" id="daily"/> Daily
+           </label>
+           <br>
+           <label for="few-times-a-week">
+             <input type="radio" name="visit-frequency" id="few-times-a-week"/> few-times-a-week
+           </label>
+           <br>
+           <label for="once-a-week">
+             <input type="radio" name="visit-frequency" id="once-a-week"/> once-a-week
+           </label>
+           <br>
+           <label for="few-times-a-month">
+             <input type="radio" name="visit-frequency" id="few-times-a-month"/> few-times-a-month
+           </label>
+           <br>
+           <label for="this-is-first-time">
+             <input type="radio" name="visit-frequency" id="this-is-first-time"/> this-is-first-time
+            </label>
+        </div>
+        <div class="age-group">
+          <li><label for="age-group">Which age group best describe you?</label></li>
+          <select name="age-group" >
+            <option value="">(select-one)</option>
+            <option value="under-18">under 18</option>
+            <option value="18-25"> between 18-25</option>
+            <option value="26-35"> between 26-35</option>
+            <option value="36-50"> between 36-50</option>
+            <option value="above-50">above 50</option>
+          </select>
+          
+        </div>
+        <div class="flavor-choice">
+          <li>
+            <label for="flavor-choice">When it comes to drinks, Which flavor do you love(Choose as many as you like)? </label>
+          </li>
+          <label>
+            <input type="checkbox" id="sweet-creamy" name="flavor-choice" value="sweet-creamy"/> Sweet & Creamy(e.g caramel, vannilla)
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" id="fruity-tangy" name="flavor-choice" value="fruit"/> Fruity & Tangy (e.g Lemon, berry)
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" id="spicy-warm" name="flavor-choice" value="spicy-warm"/> Spicy & Warm(e.g cinnamon, ginger)
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" id="earthy-rich" name="flavor-choice" value="earthy-rich"/> Earthy & Rich(e.g coffee, dark chocolate)
+          </label>
+          <br>
+          <label>
+            <input type="checkbox" id="refreshing-herbal" name="flavor-choice" value="refreshing-herbal"/> Refreshing & Herbal(e.g mint, lemmongrass)
+          </label>
+        </div>
+        <div class="interest">
+          <li>
+            <label for="interest">
+              How excited are you to try something new?
+            </label>
+          </li>
+          <input type="radio" name="interest" value="not-interested" id="not-interested"/>
+          <label for="not-interested">
+            Not-Interested
+          </label>
+          <br>
+          <input type="radio" name="interest" value="somehow-interested" id="somehow-interested"/>
+          <label for="somehow-interested">
+            Somehow-Interested
+          </label>
+          <br>
+          <input type="radio" name="interest" value="neutral" id="neutral"/>
+          <label for="neutral">
+            Neutral
+          </label>
+          <br>
+          <input type="radio" name="interest" value="interested" id="interested"/>
+          <label for="interested">
+            Interested 
+          </label>
+          <br>
+          <input type="radio" name="interest" value="very-exicited" id="very-exicited"/>
+          <label for="very-exicited">
+            Very-Excited
+          </label>
+          
+        </div>
+        <div class="affordable-price">
+          <li>
+            <label for="affordable-price">
+              What price range feels good for drink for you?
+            </label>
+          </li>
+          <select for="affordable-price">
+            <option value="">(select one affordable price)</option>
+            <option value="under-250">Under 250</option>
+            <option value="250-350">Between 250-350</option>
+            <option value="351-450">Between 351-450</option>
+            <option value="451-550">Between 451-550</option>
+            <option value="above-550"> Above 550</option>
+          </select>
+        </div>
+        <div class="email">
+          <li>
+            <label for="email">Get 30% discount coupon by sharing your email</label>
+          </li>
+          <input type="email"/>
+          
+        </div>
+        <div class="terms-and-condition">
+          <input type="checkbox" id="terms-and-condition">
+          <label for="terms-and-condition">By submiting these form you agree with our <a href="">terms-and-condition</a></label>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Submit Your Idea">
+        </div>
+        </ol>
+     </form>
   </body>
 </html>
